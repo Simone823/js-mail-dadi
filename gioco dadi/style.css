@@ -13,7 +13,6 @@ body{
     padding: 30px 45px;
     background-color: black;
     border-radius: 20px;
-    min-height: 500px;
 }
 
 .container h1{
@@ -45,5 +44,20 @@ body{
 
 .generated_number_player1.active,
 .generated_number_player2.active{
+    display: block;
+}
+
+.btn_result{
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px;
+
+}
+
+.win_or_lose{
+    display: none;
+}
+
+.win_or_lose.active{
     display: block;
 }
