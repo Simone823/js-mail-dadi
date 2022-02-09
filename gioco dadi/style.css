@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.container{
+    padding: 30px 45px;
+    background-color: black;
+    border-radius: 20px;
+    min-height: 500px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fc466b;
+    padding-bottom: 20px; 
+}
+
+.container h2{
+    color: #3f5efb;
+    margin-bottom: 20px;
+}
+
+.btn_player1{
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 8px 10px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border-radius: 12px;
+}
+
+.generated_number{
+    display: none;
+}
+
+.generated_number.active{
+    display: block;
+}
