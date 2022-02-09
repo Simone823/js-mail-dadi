@@ -9,7 +9,7 @@ btnPlayer1.addEventListener("click", function(){
     
     
     // Creo una variabile di numeri random da 1 a 6 player 1 
-    let numbersRandomPlayer1 = Math.floor(Math.random()* 6 + 1);
+    numbersRandomPlayer1 = Math.floor(Math.random()* 6 + 1);
     console.log("numero generato", numbersRandomPlayer1);
 
     // Seleziono il paragrafo numbers player 1 dal DOM
@@ -38,7 +38,7 @@ let numbersRandomPlayer2;
 btnPlayer2.addEventListener("click", function() {
     
         // Creo una variabile di numeri random da 1 a 6 player2
-        let numbersRandomPlayer2 = Math.floor(Math.random()* 6 + 1);
+        numbersRandomPlayer2 = Math.floor(Math.random()* 6 + 1);
         console.log("numero generato", numbersRandomPlayer2);   
 
         // Seleziono il paragrafo numbers player 2 dal DOM
