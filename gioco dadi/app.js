@@ -2,13 +2,15 @@
 const btnPlayer1 = document.querySelector(".btn_player1");
 console.log(btnPlayer1);
 
-// Creo una variabile di numeri random da 1 a 6 player 1 
-const numbersRandomPlayer1 = Math.floor(Math.random()* 6 + 1);
-console.log("numero generato", numbersRandomPlayer1);
-
+let numbersRandomPlayer1;
 
 // Al clic del bottone compare la sezione con il numero generato
 btnPlayer1.addEventListener("click", function(){
+    
+    
+    // Creo una variabile di numeri random da 1 a 6 player 1 
+    let numbersRandomPlayer1 = Math.floor(Math.random()* 6 + 1);
+    console.log("numero generato", numbersRandomPlayer1);
 
     // Seleziono il paragrafo numbers player 1 dal DOM
     const numbersPlayer1 = document.querySelector(".numbers_player1");
@@ -30,13 +32,15 @@ btnPlayer1.addEventListener("click", function(){
 const btnPlayer2 = document.querySelector(".btn_player2");
 console.log(btnPlayer2);
 
- // Creo una variabile di numeri random da 1 a 6 player2
- const numbersRandomPlayer2 = Math.floor(Math.random()* 6 + 1);
- console.log("numero generato", numbersRandomPlayer2);
+let numbersRandomPlayer2;   
 
 // Al clic del pulsante player 2 compare la sezione con il numero generato
 btnPlayer2.addEventListener("click", function() {
-       
+    
+        // Creo una variabile di numeri random da 1 a 6 player2
+        let numbersRandomPlayer2 = Math.floor(Math.random()* 6 + 1);
+        console.log("numero generato", numbersRandomPlayer2);   
+
         // Seleziono il paragrafo numbers player 2 dal DOM
         const numbersPlayer2 = document.querySelector(".numbers_player2");
         console.log(numbersPlayer2);
