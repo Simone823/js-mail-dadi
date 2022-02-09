@@ -28,7 +28,8 @@ body{
     margin-bottom: 20px;
 }
 
-.btn_player1{
+.btn_player1,
+.btn_player2{
     color: black;
     font-weight: bold;
     border: none;
@@ -37,10 +38,12 @@ body{
     border-radius: 12px;
 }
 
-.generated_number{
+.generated_number_player1,
+.generated_number_player2{
     display: none;
 }
 
-.generated_number.active{
+.generated_number_player1.active,
+.generated_number_player2.active{
     display: block;
 }
