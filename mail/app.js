@@ -1,5 +1,5 @@
 // Chiedo all'utente la sua email
-let userMail = prompt("Scrivi qui la tua email");
+let userMail = prompt("Scrivi qui la tua email").trim();
 console.log(userMail);
 
 // Creo una lista di email verificate
@@ -19,16 +19,17 @@ for (let i = 0; i < verifiedEmails.length; i++){
 
 
     // Se la mail inserita dall'utente è inserita in lista verifiedEmail
-    if (userMail == element){
+    if (userMail.toLowerCase() == element.toLowerCase()){
         console.log("Email in lista");
         alert("Email in lista");
+        break;
     }
     
 }
 
 
 // Se la mail inserita dall'utente non è in lista verfiedEmails
-if(userMail !== element){
+if(userMail.toLowerCase() !== element.toLowerCase()){
      console.log("email non in lista");
      alert("Email non in lista, non hai i permessi per accedere!");
 }
